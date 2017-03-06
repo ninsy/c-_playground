@@ -40,7 +40,7 @@ namespace ConsoleApplication
         }
         public IEnumerable<T> BottomToTop {
             get {
-                for(int i = 0; i <= top; i++) {
+                for(int i = 0; i < top; i++) {
                     yield return values[i];
                 }
             }
